@@ -1,0 +1,495 @@
+{
+  "users": [
+    {
+      "Name": "eslam haraz",
+      "Password": "eslam_2020",
+      "Email": "islamharaz@yahoo.com",
+      "JopTitle": "Front End Developer",
+      "SiteName": "The Spider",
+      "Description": "The Spider The Best Store To But Clothes , Choeses And Bants ",
+      "AltText": " Leave Your Phone Number Please ",
+      "Status": "Closed",
+      "id": 2
+    },
+    {
+      "Name": "Eslam Haraz",
+      "Password": "eslam_2030",
+      "Email": "islamharaz478@yahoo.com",
+      "JopTitle": "Front End Devleoper",
+      "SiteName": " El Gamal ",
+      "Description": "For Best Clothes And Perfect Matrial ",
+      "AltText": " Leave Your Phone Number ",
+      "Status": " Open ",
+      "id": 3
+    },
+    {
+      "Name": "Ahmed Yassien",
+      "Password": "magazine_006",
+      "Email": "ahmadyassien55@gmail.com",
+      "JopTitle": "Software Enginner",
+      "SiteName": " Spider Store ",
+      "Description": "For Best Clothes And Perfect Matrial ",
+      "AltText": " Leave Your Phone Number ",
+      "Status": " Open ",
+      "id": 4
+    },
+    {
+      "Name": "Ahmed Elazazy",
+      "Password": "ahmed_4040",
+      "Email": "ahmedali45@gmail.com",
+      "SiteName": "The Black",
+      "Description": "The Black Is The Best Store To Sell Clothes And Shoes",
+      "AltText": "Leave Your Phone Number",
+      "Status": "Open",
+      "JopTitle": "Clothes dealer",
+      "id": 5
+    }
+  ],
+  "Employees": [
+    {
+      "Name": "mohamed elbadry",
+      "Email": "mohamedelbadry@gmail.com",
+      "password": "mohamedelbad",
+      "Jop": "Full Stack Developer",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "Name": "eslam haraz",
+      "Email": "islamharaz64@gmail.com",
+      "password": "eslam_2020",
+      "Jop": "Front End Developer",
+      "userId": 2,
+      "id": 2
+    }
+  ],
+  "Categories": [
+    {
+      "CategoryName": "socks",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "CategoryName": "bants",
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "CategoryName": "shorts",
+      "userId": 2,
+      "id": 18
+    },
+    {
+      "CategoryName": "shoeses",
+      "userId": 2,
+      "id": 19
+    },
+    {
+      "CategoryName": "cap",
+      "userId": 2,
+      "id": 20
+    }
+  ],
+  "Products": [
+    {
+      "Name": "three socks",
+      "Price": 450,
+      "Description": "dshfbshdnm",
+      "Stock": 40,
+      "CategoryId": 16,
+      "CategoryName": "socks",
+      "userId": 2,
+      "Quantity": 1,
+      "id": 1
+    },
+    {
+      "Name": "two bants",
+      "Price": 450,
+      "Description": "The Best Matrial",
+      "Stock": 20,
+      "CategoryId": 17,
+      "CategoryName": "bants",
+      "userId": 2,
+      "Quantity": 1,
+      "id": 2
+    },
+    {
+      "Name": "three shorts",
+      "Price": 250,
+      "Description": "The Best Shorts",
+      "Stock": 20,
+      "CategoryId": 18,
+      "CategoryName": "shorts",
+      "userId": 2,
+      "Quantity": 1,
+      "id": 5
+    },
+    {
+      "Name": "five socks",
+      "Price": 450,
+      "Description": "The Best Socks",
+      "Stock": 450,
+      "CategoryId": 16,
+      "CategoryName": "socks",
+      "userId": 2,
+      "Quantity": 1,
+      "id": 6
+    },
+    {
+      "Name": "five adidas white cap",
+      "Price": 600,
+      "Description": "The Best Matrial From Adidas",
+      "Stock": 250,
+      "CategoryId": 20,
+      "CategoryName": "cap",
+      "Quantity": 1,
+      "userId": 2,
+      "id": 7
+    }
+  ],
+  "Clints": [
+    {
+      "Name": "ziad elbadry",
+      "Address": "elmanzala street elcapten behind elsoltan market",
+      "Phone": 201025487496,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "Name": "mohamed elbadry",
+      "Address": "Elmanzala Dakahlia",
+      "Phone": 12457498665,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "Name": "ahmed yassien",
+      "Address": "ahmadyassien55@gmail.com",
+      "Phone": 125688746854,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "Name": "eslam haraz 502",
+      "Address": "Elmanzala Dakahlia",
+      "Phone": 201124457678647,
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "Name": "eslam ahmed",
+      "Address": "Elmanzala Dakahlia",
+      "Phone": 2014575465436,
+      "userId": 2,
+      "id": 11
+    }
+  ],
+  "Orders": [
+    {
+      "clintName": "ziad elbadry",
+      "clintPhone": 201025487496,
+      "clintAddress": "elmanzala street elcapten behind elsoltan market",
+      "Note": "",
+      "status": "shipping",
+      "discount": 200,
+      "totalPrice": 1300,
+      "userId": 2,
+      "orderId": "ZBGNU1681496857112",
+      "orders": [
+        {
+          "Name": "two bants",
+          "Price": 450,
+          "Description": "The Best Matrial",
+          "Stock": 20,
+          "CategoryId": 17,
+          "CategoryName": "bants",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 2
+        },
+        {
+          "Name": "three socks",
+          "Price": 450,
+          "Description": "dshfbshdnm",
+          "Stock": 40,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 1
+        },
+        {
+          "Name": "three shorts",
+          "Price": 250,
+          "Description": "The Best Shorts",
+          "Stock": 20,
+          "CategoryId": 18,
+          "CategoryName": "shorts",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 5
+        },
+        {
+          "Name": "three bants",
+          "Price": 350,
+          "Description": "The Perfect Matrial",
+          "Stock": 450,
+          "CategoryId": 13,
+          "CategoryName": "adidas",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 4
+        }
+      ],
+      "id": 12
+    },
+    {
+      "clintName": "eslam ahmed",
+      "clintPhone": 1274291043,
+      "clintAddress": "Elmanzala Street Train Station",
+      "Note": "",
+      "status": "complete",
+      "discount": 50,
+      "totalPrice": 400,
+      "orderId": "SZPLO1681431794547",
+      "orders": [
+        {
+          "Name": "three socks",
+          "Price": 450,
+          "Description": "dshfbshdnm",
+          "Stock": 40,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 1
+        }
+      ],
+      "id": 14
+    },
+    {
+      "clintName": "ziad elbadry",
+      "clintPhone": 201025487496,
+      "clintAddress": "elmanzala street elcapten behind elsoltan market",
+      "Note": "",
+      "status": "shipping",
+      "discount": 10,
+      "totalPrice": 440,
+      "userId": 2,
+      "orderId": "LNZDM1681431933051",
+      "orders": [
+        {
+          "Name": "two bants",
+          "Price": 450,
+          "Description": "The Best Matrial",
+          "Stock": 20,
+          "CategoryId": 17,
+          "CategoryName": "bants",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 2
+        }
+      ],
+      "id": 15
+    },
+    {
+      "clintName": "mohamed elbadry",
+      "clintPhone": 12457498665,
+      "clintAddress": "Elmanzala Dakahlia",
+      "Note": "",
+      "status": "refound",
+      "discount": null,
+      "totalPrice": 1300,
+      "userId": 2,
+      "orderId": "OBHFC1681496893628",
+      "orders": [
+        {
+          "Name": "five cap adidas white",
+          "Price": 600,
+          "Description": "The Best Matrial",
+          "Stock": 600,
+          "CategoryId": 20,
+          "CategoryName": "cap",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 7
+        },
+        {
+          "Name": "three shorts",
+          "Price": 250,
+          "Description": "The Best Shorts",
+          "Stock": 20,
+          "CategoryId": 18,
+          "CategoryName": "shorts",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 5
+        },
+        {
+          "Name": "five socks",
+          "Price": 450,
+          "Description": "The Best Socks",
+          "Stock": 450,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 6
+        }
+      ],
+      "id": 16
+    },
+    {
+      "clintName": "ahmed yassien",
+      "clintPhone": 125688746854,
+      "clintAddress": "ahmadyassien55@gmail.com",
+      "Note": "",
+      "status": "canceled",
+      "discount": null,
+      "totalPrice": 900,
+      "userId": 2,
+      "orderId": "TNBHQ1681497014025",
+      "orders": [
+        {
+          "Name": "two bants",
+          "Price": 450,
+          "Description": "The Best Matrial",
+          "Stock": 20,
+          "CategoryId": 17,
+          "CategoryName": "bants",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 2
+        },
+        {
+          "Name": "five socks",
+          "Price": 450,
+          "Description": "The Best Socks",
+          "Stock": 450,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 6
+        }
+      ],
+      "id": 17
+    },
+    {
+      "clintName": "mohamed elbadry",
+      "clintPhone": 12457498665,
+      "clintAddress": "Elmanzala Dakahlia",
+      "Note": "",
+      "status": "complete",
+      "discount": 100,
+      "totalPrice": 1250,
+      "userId": 2,
+      "orderId": "QTENG1681497168195",
+      "orders": [
+        {
+          "Name": "three socks",
+          "Price": 450,
+          "Description": "dshfbshdnm",
+          "Stock": 40,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 1
+        },
+        {
+          "Name": "two bants",
+          "Price": 450,
+          "Description": "The Best Matrial",
+          "Stock": 20,
+          "CategoryId": 17,
+          "CategoryName": "bants",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 2
+        },
+        {
+          "Name": "five socks",
+          "Price": 450,
+          "Description": "The Best Socks",
+          "Stock": 450,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 6
+        }
+      ],
+      "id": 18
+    },
+    {
+      "clintName": "eslam haraz 502",
+      "clintPhone": 201124457678647,
+      "clintAddress": "Elmanzala Dakahlia",
+      "Note": "I Want This Order in 2023/5/14",
+      "status": "Pending",
+      "discount": 500,
+      "totalPrice": 8000,
+      "userId": 2,
+      "orderId": "CCCNH1681499209304",
+      "orders": [
+        {
+          "Name": "two bants",
+          "Price": 450,
+          "Description": "The Best Matrial",
+          "Stock": 20,
+          "CategoryId": 17,
+          "CategoryName": "bants",
+          "userId": 2,
+          "Quantity": 11,
+          "id": 2
+        },
+        {
+          "Name": "five socks",
+          "Price": 450,
+          "Description": "The Best Socks",
+          "Stock": 450,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 6
+        },
+        {
+          "Name": "three shorts",
+          "Price": 250,
+          "Description": "The Best Shorts",
+          "Stock": 20,
+          "CategoryId": 18,
+          "CategoryName": "shorts",
+          "userId": 2,
+          "Quantity": 1,
+          "id": 5
+        },
+        {
+          "Name": "five adidas white cap",
+          "Price": 600,
+          "Description": "The Best Matrial From Adidas",
+          "Stock": 250,
+          "CategoryId": 20,
+          "CategoryName": "cap",
+          "Quantity": 1,
+          "userId": 2,
+          "id": 7
+        },
+        {
+          "Name": "three socks",
+          "Price": 450,
+          "Description": "dshfbshdnm",
+          "Stock": 40,
+          "CategoryId": 16,
+          "CategoryName": "socks",
+          "userId": 2,
+          "Quantity": 5,
+          "id": 1
+        }
+      ],
+      "id": 19
+    }
+  ]
+}
